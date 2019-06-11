@@ -25,27 +25,27 @@ int main()
 	setlocale(LC_ALL, "RUS");
 
 	struct RecordBook rb;
-	rb.lastName = "Ширшов";
-	rb.firstName = "Василий";
-	rb.middleName = "Петрович";
+	rb.lastName = "ГГЁГ°ГёГ®Гў";
+	rb.firstName = "Г‚Г Г±ГЁГ«ГЁГ©";
+	rb.middleName = "ГЏГҐГІГ°Г®ГўГЁГ·";
 	rb.number = 17168;
 
-	printf("Зачётная книжка №%d\n", rb.number);
-	printf("ФИО студента: %s %s %s\n\n", rb.lastName, rb.firstName, rb.middleName);
+	printf("Г‡Г Г·ВёГІГ­Г Гї ГЄГ­ГЁГ¦ГЄГ  В№%d\n", rb.number);
+	printf("Г”Г€ГЋ Г±ГІГіГ¤ГҐГ­ГІГ : %s %s %s\n\n", rb.lastName, rb.firstName, rb.middleName);
 	
-	rb.bookList[0][0].exam = "ЭКОЛОГИЯ"; rb.bookList[0][0].hasPassed = "ЗАЧЁТ"; rb.bookList[0][0].mark = A;
-	rb.bookList[0][1].exam = "ФОЭ"; rb.bookList[0][1].hasPassed = "НЕ ЗАЧЁТ"; rb.bookList[0][1].mark = D;
+	rb.bookList[0][0].exam = "ГќГЉГЋГ‹ГЋГѓГ€Гџ"; rb.bookList[0][0].hasPassed = "Г‡ГЂГ—ВЁГ’"; rb.bookList[0][0].mark = A;
+	rb.bookList[0][1].exam = "Г”ГЋГќ"; rb.bookList[0][1].hasPassed = "ГЌГ… Г‡ГЂГ—ВЁГ’"; rb.bookList[0][1].mark = D;
 
-	rb.bookList[1][0].exam = "ВМ"; rb.bookList[1][0].hasPassed = "ЗАЧЁТ"; rb.bookList[1][0].mark = B;
-	rb.bookList[1][1].exam = "ФИЗИКА"; rb.bookList[1][1].hasPassed = "ЗАЧЁТ"; rb.bookList[1][1].mark = C;
+	rb.bookList[1][0].exam = "Г‚ГЊ"; rb.bookList[1][0].hasPassed = "Г‡ГЂГ—ВЁГ’"; rb.bookList[1][0].mark = B;
+	rb.bookList[1][1].exam = "Г”Г€Г‡Г€ГЉГЂ"; rb.bookList[1][1].hasPassed = "Г‡ГЂГ—ВЁГ’"; rb.bookList[1][1].mark = C;
 
-	rb.bookList[2][0].exam = "ТФКП"; rb.bookList[2][0].hasPassed = "ЗАЧЁТ"; rb.bookList[2][0].mark = B;
-	rb.bookList[2][1].exam = "МотЭПИВ"; rb.bookList[2][1].hasPassed = "ЗАЧЁТ"; rb.bookList[2][1].mark = A;
+	rb.bookList[2][0].exam = "Г’Г”ГЉГЏ"; rb.bookList[2][0].hasPassed = "Г‡ГЂГ—ВЁГ’"; rb.bookList[2][0].mark = B;
+	rb.bookList[2][1].exam = "ГЊГ®ГІГќГЏГ€Г‚"; rb.bookList[2][1].hasPassed = "Г‡ГЂГ—ВЁГ’"; rb.bookList[2][1].mark = A;
 	
 
 	for (int i = 0; i < 3; i++)
 	{
-		printf("%d семестр:\n", i + 1);
+		printf("%d Г±ГҐГ¬ГҐГ±ГІГ°:\n", i + 1);
 		for (int j = 0; j < 2; j++)
 		{
 			printf("%s ", rb.bookList[i][j].exam);
@@ -56,6 +56,6 @@ int main()
 		printf("\n");
 	}
 
-
+system("pause");
 	return 0;
 }
