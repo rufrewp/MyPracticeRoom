@@ -28,7 +28,7 @@ int main()
 	rb.lastName = "Øèðøîâ";
 	rb.firstName = "Âàñèëèé";
 	rb.middleName = "Ïåòðîâè÷";
-	rb.number = 17168;
+	rb.number = 17179;
 
 	printf("Çà÷¸òíàÿ êíèæêà ¹%d\n", rb.number);
 	printf("ÔÈÎ ñòóäåíòà: %s %s %s\n\n", rb.lastName, rb.firstName, rb.middleName);
